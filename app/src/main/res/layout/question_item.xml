@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:layout_marginStart="18sp"
+        android:layout_marginLeft="18sp">
+
+        <TextView
+            android:id="@+id/q_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="6sp"
+            android:text="@string/q_title_label"
+            android:textColor="@color/black"
+            android:textSize="19sp"/>
+
+        <TextView
+            android:id="@+id/q_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_gravity="start"
+            android:layout_marginBottom="20sp"
+            android:text="@string/q_subtitle_label"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="end">
+
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginTop="26sp"
+            android:singleLine="true"
+            android:text="@string/eg_time"
+            android:layout_marginLeft="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

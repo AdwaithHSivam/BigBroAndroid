@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#1C7ADD</color>
+    <color name="colorPrimaryDark">#d0d0d0</color>
+    <color name="colorAccent">@color/color_green_qb</color>
+
+    <color name="color_green_qb">#4ad24d</color>
+    <color name="color_light_blue_qb">#87cefa</color>
+    <color name="color_grey">#d3d3d3</color>
+    <color name="color_red">#ff0000</color>
+    <color name="color_new_blue">#3978FC</color>
+    <color name="color_unread">#00CC4C</color>
+    <color name="color_text_highlight">#DAE5FE</color>
+    <color name="color_text_last_message">#6C7A92</color>
+    <color name="color_search_hint">#6C7A92</color>
+    <color name="color_checked_item">#F4F6F9</color>
+    <color name="color_middle_gray">#CBCBCB</color>
+
+    <color name="black">#000000</color>
+    <color name="dark_gray">#6c6c6c</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="blue">#007FFF</color>
+
+    <color name="text_color_white">#ffffff</color>
+    <color name="text_color_white_alpha_06">#96ffffff</color>
+
+    <color name="my_chat">#009688</color>
+    <color name="their_chat">#ffffff</color>
+</resources>

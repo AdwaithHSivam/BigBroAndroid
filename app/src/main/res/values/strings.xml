@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">BigBro</string>
+    <string name="url_base">gotiit.in</string>
+    <string name="big_bro">BigBro</string>
+    <string name="login_label_username">Username</string>
+    <string name="login_label_password">Password</string>
+    <string name="login_label_button_login">Login</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="questions_fragment_label">Home</string>
+    <string name="add_question_fragment_label">Add Question</string>
+    <string name="chat_fragment_label">Question</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hint_send_message">Send message</string>
+    <string name="hint_chat_closed">Chat Closed</string>
+    <string name="hint_not_your_chat">Not Your Chat</string>
+    <string name="hint_accept_chat">Accept Chat</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_accept">Accept</string>
+
+    <string name="home_tab">Home</string>
+    <string name="feed_tab">Feed</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Full Name</string>
+    <string name="nav_header_subtitle">\@username</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="q_title_label">Main Title - Maybe Long longer than you thought ha.</string>
+    <string name="q_subtitle_label">subtitle</string>
+    <string name="eg_time">25 Jul</string>
+    <string name="enter_question_title">Enter Question title</string>
+    <string name="enter">Enter</string>
+    <string name="placeholder_message">Placeholder message</string>
+    <string name="eg_time2">15:56</string>
+    <string name="at_username">\@mentor</string>
+
+</resources>

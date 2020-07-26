@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/QuestionsFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/ChatFragment"
+        android:name="in.gotiit.bigbro.ChatsFragment"
+        android:label="@string/chat_fragment_label"
+        tools:layout="@layout/fragment_chats">
+        <argument
+            android:name="question"
+            app:argType="in.gotiit.bigbro.db.QuestionWithUser" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/QuestionsFragment"
+        android:name="in.gotiit.bigbro.QuestionsFragment"
+        android:label="@string/questions_fragment_label"
+        tools:layout="@layout/fragment_questions">
+
+        <argument
+            android:name="src"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_QuestionsFragment_to_addQuestionFragment"
+            app:destination="@id/addQuestionFragment" />
+        <action
+            android:id="@+id/action_QuestionsFragment_to_ChatFragment"
+            app:destination="@id/ChatFragment" />
+        <action
+            android:id="@+id/action_QuestionsFragment_self"
+            app:destination="@id/QuestionsFragment"
+            app:popUpTo="@id/QuestionsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/addQuestionFragment"
+        android:name="in.gotiit.bigbro.AddQFragment"
+        android:label="@string/add_question_fragment_label"
+        tools:layout="@layout/fragment_add_q" >
+        <action
+            android:id="@+id/action_addQuestionFragment_to_QuestionsFragment"
+            app:destination="@id/QuestionsFragment"
+            app:popUpTo="@id/QuestionsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
